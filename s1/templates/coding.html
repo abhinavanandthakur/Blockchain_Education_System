@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="w3-container" style="background-color:black; padding: 30px 30px;">
+        <h1 style="color: antiquewhite; text-align: center;"> Welcome to Blockchain Education</h1>
+        <h4 style="color: antiquewhite; text-align: right;"> Student Name: Abhinav Anand</h4>
+      </div>
+    <form action="{{ url_for('initiate_coding_activity')}}" method="post">
+        <div style="text-align: center;">
+        <input type="text" id="topic" name="topic" placeholder="Coding topic">
+       </div>
+       <div style="text-align: center;">
+        <input type="text" id="file" name="file" placeholder="File name">
+       </div>
+       <div style="text-align: center;">
+        <input type="text" id="language" name="lang" placeholder="Coding language">
+       </div>
+       <div style="text-align: center;">
+        <button type="submit">Submit</button>
+       </div>
+    </form>
+
+    <div class="w3-container" style="background-color:black; padding: 15px 15px;position: fixed;
+    height: 50px; bottom: 0px;left: 0px; right: 0px; margin-bottom: 0px;">
+        <h4 style="color: antiquewhite; text-align:center;"> Mitacs Globalink | Athabasca University</h4>
+      </div>
+</body>

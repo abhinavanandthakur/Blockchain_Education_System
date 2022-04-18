@@ -1,0 +1,41 @@
+{
+    "question": [
+      "Q1. What is the time complexity to count the number of elements in the linked list?",
+      "Q2.Which of these is an application of linked lists?",
+      "Q3. In the worst case, the number of comparisons needed to search a singly linked list of length n for a given element is?",
+      "Q4. Linked lists are not suitable to for the implementation of?"
+    ],
+    "answer": [
+      2,
+      4,
+      4,
+      4
+    ],
+    "options": [
+  
+      [
+        "O(1)",
+        "O(n)",
+        "O(logn)",
+        "None of the mentioned"
+      ],
+
+      ["To implement file systems",
+        "For separate chaining in hash-tables",
+        "To implement non-binary trees",
+        "All of the mentioned"
+      ],
+
+      ["log 2 n",
+        "n/2",
+        "log 2 n – 1",
+        "n"
+      ],
+
+      ["Insertion sort",
+        "Radix sort",
+        "Polynomial manipulation",
+        "Binary search"
+      ]
+    ]
+  }
